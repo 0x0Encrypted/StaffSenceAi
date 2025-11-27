@@ -1,0 +1,308 @@
+Build a fully functional AI-powered Employee Attendance System called “StaffSense AI”, using lightweight AI (OpenCV) so it runs smoothly on the free Replit tier.
+
+This system must detect employee faces, mark attendance, manage employees, and provide an admin dashboard — all inside a clean, modern web app.
+
+Apply all branding, names, roll numbers, and system requirements exactly.
+
+🔵 1. Branding Requirements
+
+Use this branding everywhere (UI, README, comments, navbar, footer, page titles):
+
+Project Name:
+
+StaffSense AI — AI Face Detection for Employee Attendance
+
+Developed By (Watermark on all pages):
+
+Ayush Pandey (220BTCCSE135)
+
+Suparshva Jain (220BTCCSE154)
+Team Name: Team StaffSense
+
+Place this watermark in:
+
+footer of every page
+
+login page
+
+dashboard
+
+attendance page
+
+employee list
+
+logs page
+
+about section
+
+🔵 2. Tech Stack (Replit Free-Tier Friendly)
+
+Use lightweight and compatible technologies:
+
+Python
+
+Flask (web framework)
+
+OpenCV Haar Cascade for face detection (not recognition)
+
+SQLite for database
+
+HTML + CSS + JS
+
+Chart.js for simple analytics
+
+jQuery (optional)
+
+No heavy neural networks. No cloud APIs. No GPU.
+
+🔵 3. Core Features (Lite AI + Real Functionality)
+
+The system must include:
+
+A. Employee Registration
+
+Add new employee (name, employee ID, department).
+
+Capture face images using webcam (20–30 samples).
+
+Save sample images per employee in local folder.
+
+Insert employee details into SQLite.
+
+B. AI Face Detection for Attendance
+
+Live webcam stream using OpenCV.
+
+Face detection using Haar Cascades.
+
+If face matches the stored dataset folder name → mark attendance.
+
+Store attendance with timestamp + date.
+
+Prevent duplicate attendance for the same day.
+
+C. Admin Login System
+
+Admin login page
+
+Username + password hash in database
+
+Session-based authentication
+
+Protect dashboard and admin routes
+
+D. Admin Dashboard
+
+Show:
+
+Total Employees
+
+Today’s Attendance Count
+
+Live Camera Test Button
+
+Today's logs preview
+
+Quick navigation sections
+
+StaffSense AI branding + watermark
+
+E. Attendance Logs Page
+
+Table of all attendance records
+
+Search by employee name or date
+
+Date filter
+
+Export to CSV (optional)
+
+F. Employee Management Module
+
+View all employees
+
+Update employee details
+
+Delete employee
+
+Re-capture face data
+
+G. Mini Analytics (Lightweight)
+
+Charts using Chart.js:
+
+Attendance of the last 7 days
+
+Total attendance vs absences
+
+Daily check-in summary
+
+Use very lightweight logic.
+
+H. Watermark (MANDATORY)
+
+Every page must display:
+
+“Developed by Team StaffSense — Ayush Pandey (220BTCCSE135) & Suparshva Jain (220BTCCSE154)”
+
+🔵 4. Required Project Structure
+
+Create exactly this structure:
+
+/staffsense_ai
+    /static
+        /css/style.css
+        /js/main.js
+        /images/logo.png (generated placeholder)
+    /templates
+        base.html
+        login.html
+        dashboard.html
+        register_employee.html
+        capture_face.html
+        attendance.html
+        view_employees.html
+        attendance_logs.html
+        analytics.html
+    /face_samples/   (store all employee folders)
+    haarcascade_frontalface_default.xml
+    app.py
+    database.py
+    models.py
+    README.md
+
+🔵 5. Flask Backend Requirements
+Required Routes:
+GET / → login  
+POST /login  
+GET /logout
+GET /dashboard  
+
+GET /register → form  
+POST /register → submit form  
+
+GET /capture/<employee_id> → webcam capture page  
+
+GET /attendance → live attendance via webcam  
+POST /attendance/mark → store attendance  
+
+GET /employees → list  
+POST /employees/update/<id>  
+GET /employees/delete/<id>  
+
+GET /logs → attendance logs  
+GET /analytics → charts dashboard
+
+🔵 6. SQLite Database Schema
+
+Create database with three tables:
+
+employees
+
+id (PK)
+
+name
+
+emp_id
+
+department
+
+face_folder (path to face samples)
+
+attendance
+
+id
+
+emp_id
+
+date
+
+time
+
+admin
+
+username
+
+password_hash
+
+🔵 7. UI/UX Requirements
+
+Clean, professional look
+
+Blue + white color theme
+
+Navbar with logo text: StaffSense AI
+
+Responsive layout
+
+Use base.html for template inheritance
+
+Beautiful tables
+
+Clean buttons
+
+Sticky footer with watermark
+
+🔵 8. README.md Requirements
+
+Must include:
+
+Project Title
+
+Problem Statement
+
+About StaffSense AI
+
+Features List
+
+Tech Stack
+
+Installation Steps
+
+How Face Detection Works
+
+Screenshot placeholders
+
+Developer Info (names + roll numbers)
+
+🔵 9. Output Requirements (Very Important)
+
+Replit must generate:
+
+Full backend code (Flask)
+
+All HTML templates
+
+CSS file
+
+JS file
+
+Haar Cascade file inclusion
+
+Fully working face detection & attendance
+
+Database creation script
+
+Project folder structure
+
+Instructions to run the project
+
+Everything must be modular, commented, readable, and production-ready for a major project submission.
+
+❗IMPORTANT – DO NOT USE:
+
+Heavy ML models (CNNs, deep learning)
+
+Face recognition libraries requiring high compute
+
+External paid APIs
+
+Large datasets
+
+GPU-required features
+
+Keep everything light, fast, and Replit-free-tier compatible.
+
+🔵 10. FINAL INSTRUCTION
+
+Generate the entire project in one go, with all files, all routes, all code, all templates, and the complete folder structure.

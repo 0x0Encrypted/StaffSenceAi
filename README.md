@@ -32,8 +32,8 @@ StaffSense AI is a modern, lightweight web application designed to manage employ
 - **Charts:** Recharts
 - **Camera:** React Webcam
 ## Screenshot
-![Employeess-Dataset Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/7cdc128a68c67d8ff03fe37223db2932e36d1bdf/Screenshorts/Screenshot%20(85).png)
-![Employee-Registration Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/7cdc128a68c67d8ff03fe37223db2932e36d1bdf/Screenshorts/Screenshot%20(86).png)
+![Employeess-Dataset Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/7cdc128a68c67d8ff03fe37223db2932e36d1bdf/Screenshorts/Screenshot%20(86).png)
+![Employee-Registration Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/7cdc128a68c67d8ff03fe37223db2932e36d1bdf/Screenshorts/Screenshot%20(85).png)
 
 ## Installation Steps
 1. Clone the repository.

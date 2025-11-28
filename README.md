@@ -44,6 +44,8 @@ In this prototype version, the face detection is simulated for demonstration pur
 2. In a real-world deployment, OpenCV (Haar Cascades) would analyze frames for faces.
 3. Detected faces would be compared against the stored dataset.
 4. Upon a match, the attendance is marked in the database.
+## Screenshot
+![Face-Detection Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/e28b6cdc3fb0c560d6adce236e5d715a0a0b931d/Screenshorts/Screenshot%20(103).png)
 
 ## Developer Info
 **Team StaffSense**

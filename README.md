@@ -10,6 +10,10 @@ Traditional attendance systems (manual registers, RFID cards, biometrics) are pr
 ## About StaffSense AI
 StaffSense AI is a modern, lightweight web application designed to manage employee attendance using facial detection. It features a comprehensive admin dashboard, live attendance kiosk, and detailed analytics.
 
+## Screenshot
+
+![WebApp Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/62c0b38154a140c11c408cc9d2060f04bdcd1137/Screenshorts/Screenshot%20(83).png)
+
 ## Features
 - **AI Face Detection:** Contactless attendance marking using camera feed.
 - **Employee Management:** Register, update, and delete employees.

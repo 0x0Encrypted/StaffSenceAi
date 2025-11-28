@@ -14,6 +14,8 @@ StaffSense AI is a modern, lightweight web application designed to manage employ
 
 ![WebApp Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/62c0b38154a140c11c408cc9d2060f04bdcd1137/Screenshorts/Screenshot%20(83).png)
 
+![App Screenshot](https://github.com/0x0Encrypted/StaffSenceAi/blob/34f3e28574e54b454be906b3bd48411e88e4238c/Screenshorts/Screenshot%20(84).png)
+
 ## Features
 - **AI Face Detection:** Contactless attendance marking using camera feed.
 - **Employee Management:** Register, update, and delete employees.
